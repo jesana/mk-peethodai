@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MK-PEETHODAI</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
@@ -11,17 +13,107 @@
   <nav id="top-nav">
     <div class="nav-wrapper blue">
       <div class="container">
-        <a href="#" class="brand-logo">MK-Peethodai</a>
+        <a href="#" class="brand-logo">मदरसा कादरिया पीथोडाई</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">परिचय</a></li>
+          <li><a href="#motto">उद्देश्य</a></li>
+          <li><a href="#contact">संपर्क</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div style="height: 500px;"></div>
+  <section id="home">
+    <div class="container center">
+      <h1>मदरसा कादरिया मोहम्मदी फतेह बबरे खां का वास पीथोडाई, जिला जैसलमेर</h1>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container center">
+      <h2>संस्था का परिचय</h2>
+      <p>मदरसा कादरिया मोहम्मदी फतेह बबरे खां का वास पीथोडाई, जिला जैसलमेर एक गैर सरकारी, गैर राजनितिक, गैर लाभकारी स्वयंसेवी मदरसा हें| जिसका रजिस्ट्रेशन राजस्थान संस्था रजिस्टीकरण अधिनियम अधिनियम 1958 राजस्थान अधिनियम संस्था 28, 1958 के अंतर्गत रजिस्टीकृत हें| मदरसे का संस्थापन अब्दुल्ला फ़क़ीर दवारा शिक्षा के पुनीत उद्देश्य के साथ दिनांक 29.09.2013 को नीव रखी थी|</p>
+    </div>
+  </section>
+
+  <section id="motto">
+    <div class="container">
+      <h2>संस्था के उद्देश्य</h2>
+       <ol>
+         <li>
+          समाज में गरीब, वंचित व दलित वर्ग की महिलाओं, विकलागों की सहायतार्थ कार्य करना|
+          </li>
+         <li>
+          अल्पसंख्यकों की क्षमता विकसित कर उनके सामाजिक, आर्थिक सशक्त बनाना |
+          </li>
+         <li>
+          अशिखित छात्र-छात्राओ को शिक्षा, तकनीक शिक्षा, तकनीकी शिक्षा, कंप्यूटर शिक्षा एवं अन्य विषयों में शिक्षा उपलब्ध करवाना |
+          </li>
+         <li>
+          समाज में अनपढ़ों को रोगों की जानकारी देना एवं उपाय बताना |
+         </li>
+         <li>
+          एड्स उन्मूलन जागरूकता कार्यक्रम संचालन |
+         </li>
+         <li>
+          विदेशी पर्यटकों को राजस्थान की सभ्यता, संस्कृति एवं इतिहास से परिचित कराने हेतु विभिन्न परियोजनाओ का संचालन करना |
+         </li>
+         <li>
+          पश्चिमी भाग में लोगों को स्वरोजगार हेतु उचित मार्गदर्शन, गरीब तबके को सरकारी योजनाओं से जोड़कर लाभाविंत करवाने के साथ-साथ मूलभूत सुविधाये उपलब्ध करवाना |    
+         </li>
+       </ol>
+    </div>
+  </section>
+  
+
+  <!-- Contact Area -->
+  <section id="contact">
+    <div class="container">
+      <!-- Contact Info -->
+      <div>
+        <h3>संपर्क  करें</h3>
+        <p>पता: मदरसा कादरिया मोहम्मदी फतेह बबरे खां का वास पीथोडाई, जिला जैसलमेर</p>
+        <p>ईमेल: mkpeethodai@gmail.com</p>
+        <p>फोन: 9413090776</p>
+      </div>
+      <!-- Contact Form -->
+      <div>
+        <form method="post">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">नाम:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">ईमेल:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="phone" type="text" class="validate">
+                  <label for="phone">फ़ोन:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="subject" type="text" class="validate">
+                  <label for="subject">विषय:</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea" class="materialize-textarea"></textarea>
+                  <label for="textarea">विवरण</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>            
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
   
   <footer class="page-footer blue">
     <div class="container">
